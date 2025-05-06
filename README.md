@@ -1,41 +1,41 @@
 # GTA5 AutoHotkey Helper
 
-Ein Sammlung von AutoHotkey-Skripten, die verschiedene Aktionen in GTA Online automatisieren, um das Spielerlebnis zu verbessern und repetitive Aufgaben zu vereinfachen.
+A collection of AutoHotkey scripts that automate various actions in GTA Online to enhance gameplay and simplify repetitive tasks.
 
-## Einführung
+## Introduction
 
-Dieses Projekt enthält AutoHotkey-Skripte, die entwickelt wurden, um häufig verwendete Aktionen in GTA Online zu automatisieren. Die Skripte simulieren Tastatureingaben, um Menüs zu navigieren und Aktionen auszuführen, die normalerweise mehrere Tastendrücke erfordern würden.
+This project contains AutoHotkey scripts designed to automate commonly used actions in GTA Online. The scripts simulate keyboard inputs to navigate menus and perform actions that would normally require multiple key presses.
 
-Die Skripte sind in verschiedene Kategorien unterteilt:
-- **IM (Interaction Menu)**: Skripte, die das Interaktionsmenü (M-Taste) verwenden
-- **PH (Phone Helper)**: Skripte, die das Telefon (UP-Taste) verwenden
-- **SM (eScape Menu)**: Skripte, die das Escape-Menü (ESC-Taste) verwenden
-- **ETC**: Verschiedene Hilfsskripte
+The scripts are divided into different categories:
+- **IM (Interaction Menu)**: Scripts that use the interaction menu (M key)
+- **PH (Phone Helper)**: Scripts that use the phone (UP key)
+- **SM (eScape Menu)**: Scripts that use the escape menu (ESC key)
+- **ETC**: Various utility scripts
 
 ## Installation
 
-1. Installiere [AutoHotkey v2](https://www.autohotkey.com/) auf deinem Computer
-2. Lade dieses Repository herunter oder klone es mit Git
-3. Stelle sicher, dass die Ordnerstruktur erhalten bleibt (subscripts/IM, subscripts/PH, subscripts/SM, subscripts/ETC)
-4. Starte die Hauptdatei `GTA5PC_Multiscript_by_sadge.ahk` durch Doppelklick
+1. Install [AutoHotkey v2](https://www.autohotkey.com/) on your computer
+2. Download or clone this repository
+3. Make sure to maintain the folder structure (subscripts/IM, subscripts/PH, subscripts/SM, subscripts/ETC)
+4. Start the main file `GTA5PC_Multiscript_by_sadge.ahk` by double-clicking it
 
-Das Skript läuft dann im Hintergrund und die konfigurierten Hotkeys sind in GTA Online verfügbar.
+The script will run in the background, and the configured hotkeys will be available in GTA Online.
 
-## Beschreibung
+## Description
 
-Die Skripte automatisieren verschiedene Aktionen in GTA Online, indem sie Tastensequenzen simulieren, die normalerweise manuell ausgeführt werden müssten. Dies spart Zeit und reduziert die Anzahl der Tastendrücke, die für häufig verwendete Aktionen erforderlich sind.
+The scripts automate various actions in GTA Online by simulating key sequences that would normally have to be performed manually. This saves time and reduces the number of key presses required for frequently used actions.
 
-Beispiele für automatisierte Aktionen:
-- Anrufen von Kontakten (Mechaniker, Mors Mutual, Pegasus, etc.)
-- Anfordern von Fahrzeugen und Flugzeugen
-- Aktivieren des passiven Modus
-- Öffnen des Internets oder der Kamera-App
+Examples of automated actions:
+- Calling contacts (Mechanic, Mors Mutual, Pegasus, etc.)
+- Requesting vehicles and aircraft
+- Activating passive mode
+- Opening the internet or camera app
 
-## Tastenbelegungen
+## Key Bindings
 
-### Haupttasten (CTRL+F1-F12)
+### Main Keys (CTRL+F1-F12)
 
-| Taste | Funktion |
+| Key | Function |
 |-------|----------|
 | CTRL+F1 | Passive Mode |
 | CTRL+F2 | Register CEO |
@@ -52,7 +52,7 @@ Beispiele für automatisierte Aktionen:
 
 ### SHIFT+F1-F12 Hotkeys
 
-| Taste | Funktion |
+| Key | Function |
 |-------|----------|
 | SHIFT+F1 | Request Personal Vehicle |
 | SHIFT+F2 | Request Personal Aircraft |
@@ -68,25 +68,25 @@ Beispiele für automatisierte Aktionen:
 
 ### CTRL+SHIFT+F1-F12 Hotkeys
 
-| Taste | Funktion |
+| Key | Function |
 |-------|----------|
 | CTRL+SHIFT+F1 | Job List |
 | CTRL+SHIFT+F9 | Passive Mode |
 | CTRL+SHIFT+F12 | Retire CEO |
 
-## Grüße und Mitwirkung
+## Greetings and Contributions
 
-Ein herzlicher Gruß an alle GTA-Fans! Dieses Projekt befindet sich noch in einem sehr frühen Entwicklungsstadium, und nicht alle Funktionen sind vollständig implementiert oder getestet.
+A warm greeting to all GTA fans! This project is still in a very early stage of development, and not all features are fully implemented or tested.
 
-Wenn du Vorschläge für bessere Tastenbelegungen oder neue Funktionen hast, oder wenn du Fehler gefunden hast, freue ich mich über dein Feedback. Du kannst gerne Issues erstellen oder Pull Requests einreichen, um zur Verbesserung des Projekts beizutragen.
+If you have suggestions for better key bindings or new features, or if you've found bugs, I welcome your feedback. Feel free to create issues or submit pull requests to help improve the project.
 
-## Bekannte Fehler
+## Known Issues
 
-- Nicht alle Aktionen haben angemessene Sleep-Zeiten nach den Tastendrücken, was dazu führen kann, dass einige Aktionen nicht zuverlässig funktionieren. Dies wird in zukünftigen Updates behoben.
-- Einige Menüs in GTA Online können sich mit Updates ändern, was dazu führen kann, dass die Skripte nicht mehr korrekt funktionieren.
-- Die Skripte wurden hauptsächlich für die PC-Version von GTA Online entwickelt und getestet. Die Kompatibilität mit anderen Plattformen oder Versionen ist nicht garantiert.
-- Bei hoher Latenz oder Serverproblemen können die Skripte möglicherweise nicht wie erwartet funktionieren, da die Menüs langsamer reagieren können.
+- Not all actions have appropriate sleep times after key presses, which can cause some actions to not work reliably. This will be fixed in future updates.
+- Some menus in GTA Online may change with updates, which can cause the scripts to no longer work correctly.
+- The scripts were primarily developed and tested for the PC version of GTA Online. Compatibility with other platforms or versions is not guaranteed.
+- In cases of high latency or server problems, the scripts may not work as expected as the menus may respond more slowly.
 
 ---
 
-**Hinweis:** Dieses Projekt ist nicht mit Rockstar Games verbunden oder wird von ihnen unterstützt. Verwende diese Skripte auf eigene Gefahr und beachte die Nutzungsbedingungen von GTA Online.
+**Note:** This project is not affiliated with or endorsed by Rockstar Games. Use these scripts at your own risk and observe the terms of service of GTA Online.
