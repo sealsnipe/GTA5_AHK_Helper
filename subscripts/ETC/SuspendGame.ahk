@@ -1,21 +1,50 @@
+global suspensionActive := false
+global suspensionPID := 0
+
 SuspendGame()
 {
+    global suspensionActive, suspensionPID
     processName := "GTA5_Enhanced.exe"
     processPID := ProcessExist(processName)
     
-    if (processPID) {
-        ToolTip("Suspending " . processName . " for 8 seconds...", 0, 0)
-        processSuspend(processPID)
-        Sleep(8000)
-        processResume(processPID)
+    if (suspensionActive) {
+        processResume(suspensionPID)
+        suspensionActive := false
+        suspensionPID := 0
         ToolTip()
-        ToolTip("Process resumed", 0, 0)
+        ToolTip("Suspension cancelled, process resumed", 0, 0)
         Sleep(1000)
         ToolTip()
+        return
+    }
+    
+    if (processPID) {
+        ToolTip("Suspending " . processName . " for 8 seconds...", 0, 0)
+        suspensionActive := true
+        suspensionPID := processPID
+        processSuspend(processPID)
+        
+        SetTimer(ResumeProcess, -8000) 
     } else {
         ToolTip(processName . " not found", 0, 0)
         Sleep(1500)
         ToolTip()
+    }
+}
+
+ResumeProcess()
+{
+    global suspensionActive, suspensionPID
+    
+    if (suspensionActive && suspensionPID) {
+        processResume(suspensionPID)
+        ToolTip()
+        ToolTip("Process resumed", 0, 0)
+        Sleep(1000)
+        ToolTip()
+        
+        suspensionActive := false
+        suspensionPID := 0
     }
 }
 
