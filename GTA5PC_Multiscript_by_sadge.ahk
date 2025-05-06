@@ -52,6 +52,7 @@ SetWorkingDir A_ScriptDir
 #Include %A_ScriptDir%\\subscripts\\IM\\ReturnPersonalVehicle.ahk
 #Include %A_ScriptDir%\\subscripts\\ETC\\UpdateKeys.ahk
 #Include %A_ScriptDir%\\subscripts\\SM\\CareerScreen.ahk
+#Include %A_ScriptDir%\\subscripts\\ETC\\SuspendGame.ahk
 
 ; ------------ Hotkeys trigger workflows -------------------
 currentMode := 0
@@ -92,7 +93,7 @@ $+F10::AssociateChopper()
 $+F11::ReturnPersonalVehicle()
 $+F12::AvengerAutopilot()
 $^+F1::job_list() ; Job List
-;$^+F2:: ; Nicht definiert
+$^+F2::SuspendGame()
 ;$^+F3:: ; Nicht definiert
 ;$^+F4:: ; Nicht definiert
 ;$^+F5:: ; Nicht definiert
