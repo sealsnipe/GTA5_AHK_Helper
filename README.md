@@ -84,7 +84,6 @@ If you have suggestions for better key bindings or new features, or if you've fo
 
 - Not all actions have appropriate sleep times after key presses, which can cause some actions to not work reliably. This will be fixed in future updates.
 - Some menus in GTA Online may change with updates, which can cause the scripts to no longer work correctly.
-- The scripts were primarily developed and tested for the PC version of GTA Online. Compatibility with other platforms or versions is not guaranteed.
 - In cases of high latency or server problems, the scripts may not work as expected as the menus may respond more slowly.
 
 ---
