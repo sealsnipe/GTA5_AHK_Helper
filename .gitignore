@@ -1,0 +1,35 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.ahk
+!key_assignment.md
+!readme.md
+
+# ...even if they are in subdirectories
+!*/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
