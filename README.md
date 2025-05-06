@@ -9,13 +9,14 @@ Dieses Projekt enthält AutoHotkey-Skripte, die entwickelt wurden, um häufig ve
 Die Skripte sind in verschiedene Kategorien unterteilt:
 - **IM (Interaction Menu)**: Skripte, die das Interaktionsmenü (M-Taste) verwenden
 - **PH (Phone Helper)**: Skripte, die das Telefon (UP-Taste) verwenden
+- **SM (eScape Menu)**: Skripte, die das Escape-Menü (ESC-Taste) verwenden
 - **ETC**: Verschiedene Hilfsskripte
 
 ## Installation
 
 1. Installiere [AutoHotkey v2](https://www.autohotkey.com/) auf deinem Computer
 2. Lade dieses Repository herunter oder klone es mit Git
-3. Stelle sicher, dass die Ordnerstruktur erhalten bleibt (subscripts/IM, subscripts/PH, subscripts/ETC)
+3. Stelle sicher, dass die Ordnerstruktur erhalten bleibt (subscripts/IM, subscripts/PH, subscripts/SM, subscripts/ETC)
 4. Starte die Hauptdatei `GTA5PC_Multiscript_by_sadge.ahk` durch Doppelklick
 
 Das Skript läuft dann im Hintergrund und die konfigurierten Hotkeys sind in GTA Online verfügbar.
