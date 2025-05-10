@@ -52,6 +52,8 @@ SetWorkingDir A_ScriptDir
 #Include %A_ScriptDir%\\subscripts\\IM\\ReturnPersonalVehicle.ahk
 #Include %A_ScriptDir%\\subscripts\\ETC\\UpdateKeys.ahk
 #Include %A_ScriptDir%\\subscripts\\SM\\CareerScreen.ahk
+#Include %A_ScriptDir%\\subscripts\\ETC\\BackToCarList.ahk
+#Include %A_ScriptDir%\\subscripts\\PH\\VinewoodMenu.ahk
 
 ; ------------ Hotkeys trigger workflows -------------------
 currentMode := 0
@@ -75,10 +77,10 @@ $^F5::Franklin()
 $^F6::CallSessanta()
 $^F7::CallSimeon()
 $^F8::CallAssistant()
-$^F9::CallMerryweather()
+;$^F9::CallMerryweather() removed in favor of nosave
 ;$^F10::AntiAFK()
 $^F11::Photo()
-$^F12::Internet()
+;$^F12:: ;removed in favor of nosave
 $+F1::RequestPersonalVehicle()
 $+F2::RequestPersonalAircraft()
 $+F3::RequestSpecialVehicle()
@@ -91,16 +93,16 @@ $+F9::RequestAcidLab()
 $+F10::AssociateChopper()
 $+F11::ReturnPersonalVehicle()
 $+F12::AvengerAutopilot()
-$^+F1::job_list() ; Job List
-;$^+F2:: ; Nicht definiert
-;$^+F3:: ; Nicht definiert
+$^+F1::job_list()
+$^+F2::BackToCarList()
+;$^+F3::Internet()
 ;$^+F4:: ; Nicht definiert
 ;$^+F5:: ; Nicht definiert
 ;$^+F6:: ; Nicht definiert
 $^+F7::CareerScreen()
 ;$^+F8:: ; Nicht definiert
 $^+F9::PassiveMode()
-;$^+F10::
+$^+F10::VinewoodMenu()
 $^+F11::SecuroserveAccept()
 $^+F12::RetireCEO()
 $SC056:: {	;<
